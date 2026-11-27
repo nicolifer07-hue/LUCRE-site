@@ -1,0 +1,35 @@
+.lucre-black-friday {
+  min-height: min(16.6667vw, 175px);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #161010;
+  background: linear-gradient(122deg, #f8dfdf 0%, #fff 28%, #fff 71%, #f7d6d6 100%);
+}
+.lucre-black-friday__copy {
+  display: grid;
+  gap: 2px;
+  padding: 3px 12px;
+  line-height: 1.15;
+}
+.lucre-black-friday__copy strong {
+  font-weight: 900;
+  font-size: clamp(24px, 4.4vw, 68px);
+  letter-spacing: -.035em;
+}
+.lucre-black-friday__copy strong span { color: #d40000; }
+.lucre-black-friday__copy > span { font-size: clamp(10px, 1.45vw, 20px); }
+#cabecalho { top: var(--lucre-banner-offset, min(16.6667vw, 175px)); }
+@media (max-width: 759px) {
+  .lucre-black-friday { min-height: 11.1111vw; }
+  .lucre-black-friday__copy strong { font-size: clamp(15px, 4vw, 28px); }
+  .lucre-black-friday__copy > span { font-size: clamp(8px, 2.1vw, 13px); }
+  #cabecalho { top: var(--lucre-banner-offset, 11.1111vw); }
+}
+
+.oferta-modal__imagem[data-astro-cid-6ktj6snx] { background: #780909; }
+.oferta-modal__imagem[data-astro-cid-6ktj6snx] img[data-astro-cid-6ktj6snx] {
+  object-fit: contain;
+  object-position: center;
+}
+.lucre-lider-unico .lider { margin-inline: auto; }

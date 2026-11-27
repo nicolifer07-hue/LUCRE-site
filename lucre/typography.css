@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Lucre Montserrat";
+  src: url("/LUCRE-site/lucre/montserrat-latin.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  --lucre-font: Gotham, "Gotham SSm", "Lucre Montserrat", Arial, sans-serif;
+  --lucre-red-gradient: linear-gradient(135deg, #560303 0%, #7A0A02 40%, #FB2E0A 100%);
+  --font-sys: var(--lucre-font) !important;
+  --font-impact: var(--lucre-font) !important;
+  --fonte-principal: var(--lucre-font) !important;
+}
+
+body,
+body :where(:not(svg, svg *, .icone, .icone *, .material-symbols-outlined, .material-symbols-outlined *, code, pre, pre *, kbd, samp)) {
+  font-family: var(--lucre-font) !important;
+}
+
+.lucre-title,
+.lucre-service h3,
+#lucre-video-title {
+  color: #fff;
+  font-weight: 750;
+}
+
+img[src="/lucre/identidade.svg"] {
+  object-fit: contain !important;
+  background-color: #000;
+}

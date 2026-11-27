@@ -1,0 +1,39 @@
+User-agent: *
+Allow: /
+# Areas administrativas e de API: nada aqui e conteudo publico.
+Disallow: /admin
+Disallow: /api/
+Disallow: /_emdash
+# LPs e paginas de campanha (mesmos bloqueios do site atual).
+Disallow: /assessoria-modular/go-modular-b
+Disallow: /lp/
+Disallow: /lps/
+Disallow: /vendas/
+Disallow: /marketing/
+Disallow: /academy/
+Disallow: /conteudo/
+Disallow: /exclusive/
+
+User-agent: SiteAuditBot
+Allow: /
+# Areas administrativas e de API: nada aqui e conteudo publico.
+Disallow: /admin
+Disallow: /api/
+Disallow: /_emdash
+# LPs e paginas de campanha (mesmos bloqueios do site atual).
+Disallow: /assessoria-modular/go-modular-b
+Disallow: /lp/
+Disallow: /lps/
+Disallow: /vendas/
+Disallow: /marketing/
+Disallow: /academy/
+Disallow: /conteudo/
+Disallow: /exclusive/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /admin
+Disallow: /api/
+Disallow: /_emdash
+
+Sitemap: https://nicolifer07-hue.github.io/LUCRE-site/sitemap.xml

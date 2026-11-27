@@ -1,0 +1,13 @@
+#catalogo .paginacao[hidden] { display: none; }
+.catalogo-local__page { text-align: center; }
+.catalogo-local__button {
+  min-height: 44px;
+  padding: 8px 14px;
+  font: inherit;
+  color: #141414;
+  background: #fff;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+}
+.catalogo-local__button:not(:disabled) { cursor: pointer; }
+.catalogo-local__button:disabled { opacity: .45; }
